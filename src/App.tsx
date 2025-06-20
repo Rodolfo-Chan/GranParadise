@@ -1,7 +1,6 @@
 import { useState } from 'react'
 
 function App() {
-  const [activeTab, setActiveTab] = useState('habitaciones')
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   // URLs de imágenes desde Unsplash
